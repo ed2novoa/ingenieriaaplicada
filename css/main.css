@@ -1,0 +1,20 @@
+.fullheight {
+  min-height: 99.5vh;
+}
+.navbar {
+  position: fixed;
+  min-width: 100%;
+  height: 70px;
+}
+@media (max-width: 1023px) {
+  .navbar-brand {
+    display: inline-flex;
+    flex-grow: 0;
+  }
+  .navbar-burger {
+    display: inline-flex;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+}
