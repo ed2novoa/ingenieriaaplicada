@@ -1,26 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-  <title>Ingeniería Aplicada</title>
-
-  <meta charset="utf-8" />
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hello Bulma!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
   <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-  <div>
-    <img src="logo.png" />
-    <h1 style="color: #B83425">Ingeniería Aplicada</h1> CONSULTORÍA - DISEÑO - CONSTRUCCIÓN
-    <p>Este sitio se encuentra en construcción.</p>
-    <p>Tel. (506) 4001 9382</p>
-    <p>info@ingenieriaaplicada.cr</p>
-  </div>
-</body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-burger" data-target="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
- <script src="scripts/main.js"></script>
+    <div class="navbar-menu" id="navMenu">
+      <div class="navbar-end">
+        <a class="navbar-item">
+          Inicio
+        </a>
+        <a class="navbar-item">
+          Servicios
+        </a>
+        <a class="navbar-item">
+          Proyectos
+        </a>
+        <a class="navbar-item">
+          Sobre Nosotros
+        </a>
+        <a class="navbar-item">
+          Contacto
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Primary title
+        </h1>
+        <h2 class="subtitle">
+          Primary subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello World
+      </h1>
+      <p class="subtitle">
+        My first website with <strong>Bulma</strong>!
+      </p>
+    </div>
+  </section>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
 
 </html>
