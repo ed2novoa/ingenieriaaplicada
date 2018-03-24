@@ -1,20 +1,103 @@
-.fullheight {
-  min-height: 99.5vh;
+/* --------------------------------- GENERAL STYLES ---------------------------- */
+
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 90px;
 }
+
+/* --------------------------------- HELPERS ---------------------------------- */
+
+.inline-block {
+  display: inline-block;
+}
+.mt-10 {
+  margin-top: 10vh;
+}
+.letter-spacing-2 {
+  letter-spacing: 2px;
+}
+.gray-fade-background {
+  background-color: rgba(35,35,35,0.75);
+  line-height: 145%;
+}
+/* --------------------------------- NAVBAR STYLES ---------------------------- */
 .navbar {
-  position: fixed;
-  min-width: 100%;
-  height: 70px;
+  background-color: #FFF;
+  height: 90px;
 }
-@media (max-width: 1023px) {
-  .navbar-brand {
-    display: inline-flex;
-    flex-grow: 0;
+.navbar-nav.ml-auto {
+  margin-right: 40px;
+  margin-top: 3px;
+}
+.nav-link {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+}
+.nav-item.active .nav-link {
+  border-bottom: 2px solid rgba(0,0,0,.9);
+}
+.nav-link:hover {
+  border-bottom: 2px solid rgba(0,0,0,.9);
+}
+
+@media (max-width: 840px) {
+  .navbar-nav.ml-auto {
+    margin-right: 0px;
   }
-  .navbar-burger {
-    display: inline-flex;
-    position: absolute;
-    right: 10px;
-    top: 10px;
+}
+
+@media (max-width: 767px) {
+  #navbarCollapse {
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.2);
+    width: 150px !important;
   }
+  .navbar-nav.ml-auto {
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .nav-item {
+    height: 33px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+  }
+  .nav-item.active {
+    background-color: rgba(0,0,0,.02);
+  }
+  .nav-item.active .nav-link {
+    border-bottom: none;
+  }
+  .nav-item:hover {
+    background-color: rgba(0,0,0,.02);
+    border-bottom: 1px solid rgba(0,0,0,.2);
+  }
+  .nav-link {
+    padding-top: 5px !important;
+  }
+  .nav-link:hover {
+    border-bottom: none;
+  }
+}
+
+/* --------------------------------- END OF NAVBAR STYLES ---------------------------- */
+
+/* --------------------------------- HERO SECTION STYLES ---------------------------- */
+
+.jumbotron-fluid {
+  background-image: url('../imgs/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.jumbotron {
+  height: 80vh;
+}
+.jumbotron {
+  color: #FFF;
 }
