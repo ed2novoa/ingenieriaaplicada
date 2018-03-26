@@ -1,36 +1,92 @@
 /* --------------------------------- GENERAL STYLES ---------------------------- */
 
 /* Show it is fixed to the top */
+html {
+  background-color: rgba(0,0,0,.2);
+}
 body {
-  min-height: 75rem;
+  max-width: 1500px;
   padding-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgba(0,0,0,.);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 117px 22px 19px;
 }
 
 /* --------------------------------- HELPERS ---------------------------------- */
-
+.section{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
 .inline-block {
   display: inline-block;
 }
+.pt-95 {
+  padding-top: 95px;
+}
 .mt-10 {
   margin-top: 10vh;
+}
+.mb-75 {
+  margin-bottom: 75px;
 }
 .letter-spacing-2 {
   letter-spacing: 2px;
 }
 .gray-fade-background {
-  background-color: rgba(35,35,35,0.75);
+  background-color: rgba(35,35,35,0.7);
   line-height: 145%;
+}
+.gray-light-background {
+  background-color: #f2f2f2;
+}
+.color-white {
+  color: #fff;
+}
+a.color-white:hover {
+  color: #fff;
+}
+.color-gray {
+  color: #6d6d6d;
+}
+.color-red{
+  color: #B83425;
+}
+.back-color-gray {
+  background-color: : #6d6d6d;
+}
+.back-color-red{
+  background-color: #B83425;
+}
+a.back-color-red:hover {
+  background-color: #93261a;
+}
+.font-20 {
+  font-size: 20px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+@media (max-width: 991px) {
+  .mt-6-under-991 {
+    margin-top: 50px;
+  }
 }
 /* --------------------------------- NAVBAR STYLES ---------------------------- */
 .navbar {
   background-color: #FFF;
   height: 90px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -12px 22px 19px;
 }
 .navbar-nav.ml-auto {
   margin-right: 40px;
   margin-top: 3px;
 }
 .nav-link {
+  color: rgba(184, 52, 37, .9) !important;
   margin-left: 15px !important;
   margin-right: 15px !important;
   padding-top: 0px !important;
@@ -39,10 +95,13 @@ body {
   padding-right: 3px !important;
 }
 .nav-item.active .nav-link {
-  border-bottom: 2px solid rgba(0,0,0,.9);
+  font-weight: 600;
+  color: rgba(184, 52, 37, 1) !important;
+  border-bottom: 2px solid rgba(184, 52, 37, .9);
 }
 .nav-link:hover {
-  border-bottom: 2px solid rgba(0,0,0,.9);
+  color: rgba(184, 52, 37, 1) !important;
+  border-bottom: 2px solid rgba(184, 52, 37, .9);
 }
 
 @media (max-width: 840px) {
@@ -89,15 +148,29 @@ body {
 
 /* --------------------------------- HERO SECTION STYLES ---------------------------- */
 
-.jumbotron-fluid {
+.jumbotron {
   background-image: url('../imgs/hero.jpg');
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
-}
-.jumbotron {
-  height: 80vh;
-}
-.jumbotron {
+  height: 85vh;
   color: #FFF;
+  margin-bottom: 0px;
+}
+@media (max-width: 991px) {
+  .jumbotron .display-4{
+    font-size: 45px;
+  }
+}
+
+/* -------------------------------- END OF HERO SECTION STYLES --------------------------- */
+
+/* ---------------------------------  ---------------------------- */
+
+.cence-02 {
+  background-image: url('../imgs/cence02.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  min-height: 600px;
 }
