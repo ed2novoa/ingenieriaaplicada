@@ -38,7 +38,7 @@ body {
   line-height: 145%;
 }
 .gray-light-background {
-  background-color: #f2f2f2;
+  background-color: #eaeaea;
 }
 .color-white {
   color: #fff;
@@ -47,13 +47,13 @@ a.color-white:hover {
   color: #fff;
 }
 .color-gray {
-  color: #6d6d6d;
+  color: #6e6e6e;
 }
 .color-red{
   color: #B83425;
 }
 .back-color-gray {
-  background-color: : #6d6d6d;
+  background-color: : #6e6e6e;
 }
 .back-color-red{
   background-color: #B83425;
@@ -63,6 +63,9 @@ a.back-color-red:hover {
 }
 .font-20 {
   font-size: 20px;
+}
+.font-21 {
+  font-size: 21px;
 }
 .uppercase {
   text-transform: uppercase;
@@ -83,7 +86,7 @@ a.back-color-red:hover {
 }
 .navbar-nav.ml-auto {
   margin-right: 40px;
-  margin-top: 3px;
+  margin-top: 18px;
 }
 .nav-link {
   color: rgba(184, 52, 37, .9) !important;
@@ -104,6 +107,25 @@ a.back-color-red:hover {
   border-bottom: 2px solid rgba(184, 52, 37, .9);
 }
 
+#contact-top {
+  z-index: 9999;
+  position: fixed;
+  top: -3px;
+  right: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(184, 52, 37, 1);
+  border-bottom-left-radius: 0.9em;
+  border-bottom-right-radius: 0.9em;
+}
+#contact-top a {
+  font-size: 11px;
+  color: #FFF;
+}
+#contact-top a:hover {
+  color: #ffeeed;
+  text-decoration: none;
+}
 @media (max-width: 840px) {
   .navbar-nav.ml-auto {
     margin-right: 0px;
@@ -142,6 +164,12 @@ a.back-color-red:hover {
   .nav-link:hover {
     border-bottom: none;
   }
+  #contact-top {
+    top: -5px;
+    right: auto;
+    left: 50%;
+    margin-left: -130.5px;
+  }
 }
 
 /* --------------------------------- END OF NAVBAR STYLES ---------------------------- */
@@ -173,4 +201,32 @@ a.back-color-red:hover {
   background-position: left;
   background-size: cover;
   min-height: 600px;
+}
+.cence-03 {
+  background-image: url('../imgs/cence03.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  min-height: 600px;
+}
+.chucas-10 {
+  background-image: url('../imgs/chucas10.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  min-height: 600px;
+}
+
+.compromiso-text {
+  line-height: 65px;
+}
+
+.contact-line {
+  display: inline-block;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.contact-line:hover {
+  text-decoration: none;
+  color: #3e3e3e;
 }
