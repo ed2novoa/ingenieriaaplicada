@@ -216,6 +216,13 @@ a.back-color-red:hover {
   background-size: cover;
   min-height: 600px;
 }
+.country-day01 {
+  background-image: url('../imgs/country_day01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+}
 
 .compromiso-text {
   line-height: 65px;
@@ -229,4 +236,7 @@ a.back-color-red:hover {
 .contact-line:hover {
   text-decoration: none;
   color: #3e3e3e;
+}
+.form-control::placeholder {
+  color: #aaaaaa;
 }
