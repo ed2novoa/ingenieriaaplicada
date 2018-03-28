@@ -209,6 +209,20 @@ a.back-color-red:hover {
   background-size: cover;
   min-height: 600px;
 }
+.cence-04 {
+  background-image: url('../imgs/cence04.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 600px;
+}
+.autos-04 {
+  background-image: url('../imgs/autos04.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+}
 .chucas-10 {
   background-image: url('../imgs/chucas10.jpg');
   background-repeat: no-repeat;
@@ -223,7 +237,20 @@ a.back-color-red:hover {
   background-size: cover;
   min-height: 400px;
 }
-
+.chucas-05 {
+  background-image: url('../imgs/chucas05.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+}
+.hotel-03 {
+  background-image: url('../imgs/hotel03.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
 .compromiso-text {
   line-height: 65px;
 }
@@ -239,4 +266,8 @@ a.back-color-red:hover {
 }
 .form-control::placeholder {
   color: #aaaaaa;
+}
+
+ul.font-20 li {
+  padding-bottom: 14px;
 }
