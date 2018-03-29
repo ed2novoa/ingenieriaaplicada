@@ -143,7 +143,7 @@
           <li>Sistemas de seguridad, control de acceso y CCTV.</li>
         </ul>
         <div class="text-center mt-5">
-          <a class="btn color-white back-color-red btn-lg" href="#" role="button">Ver Más Detalles</a>
+          <a class="btn color-white back-color-red btn-lg" href="/servicios" role="button">Ver Más Detalles</a>
         </div>
       </div>
     </div>
@@ -159,7 +159,7 @@
             en la actualidad, las disciplinas de ingeniería mecánica y civil, tanto en las áreas de inspección como en construcción. Actualmente, la empresa brinda servicios de coordinación multidisciplinaria para empresas constructoras. Los proyectos
             desarrollados muestran la experiencia con que cuentan la empresa y sus colaboradores, en estas áreas de la ingeniería.</p>
           <div class="text-center mt-5">
-            <a class="btn color-white back-color-red btn-lg" href="#" role="button">Ver Más Sobre Nosotros</a>
+            <a class="btn color-white back-color-red btn-lg" href="/sobre-nosotros" role="button">Ver Más Sobre Nosotros</a>
           </div>
         </div>
         <div class="col-md-4 text-center mt-4 d-sm-none d-md-block">
@@ -210,7 +210,7 @@
             <li>Diseño e inspección para la instalación de herramientas de producción en Intel Costa Rica.</li>
           </ul>
           <div class="text-center mt-5">
-            <a class="btn color-white back-color-red btn-lg" href="#" role="button">Ver Más Detalles</a>
+            <a class="btn color-white back-color-red btn-lg" href="/proyectos" role="button">Ver Más Detalles</a>
           </div>
         </div>
       </div>
@@ -273,26 +273,28 @@
                 </tr>
               </table>
             </div>
-            <div class="form-group col-md-6">
+            <div class="col-md-6">
               <h5 class="mt-3">También nos puede hacer llegar su consulta por este medio:</h5>
-              <div class="form-group">
-                <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
-              </div>
-              <div class="form-group">
-                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Teléfono" autocomplete="off">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto" required>
-              </div>
-              <textarea class="form-control" id="content" rows="8" name="content" placeholder="Mensaje" required></textarea>
-              <div class="button-group mt-4">
-                <button id="sendButton" type="submit" class="btn color-white back-color-red float-right px-4">Enviar</button>
-                <!-- <i id="loadingIcon" class="fa fa-spinner float-xs-right fa-pulse fa-lg fa-fw" aria-hidden="true"></i> -->
-              </div>
-              <div id="resultDiv" class="invisibleSVG"></div>
+              <form method="post" id="contactForm">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="Teléfono" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Asunto" required>
+                </div>
+                <textarea class="form-control" id="content" rows="8" name="content" placeholder="Mensaje" required></textarea>
+                <div class="button-group mt-4">
+                  <button id="sendButton" type="submit" class="btn color-white back-color-red float-right px-4">Enviar</button>
+                  <i id="loadingIcon" class="fa fa-spinner float-xs-right fa-pulse fa-lg fa-fw" aria-hidden="true"></i>
+                </div>
+                <div id="resultDiv" class="opacity-0"></div>
+              </form>
             </div>
             <div class="hidden-md-up" style="padding-top:8px;padding-bottom:8px">
               <hr>

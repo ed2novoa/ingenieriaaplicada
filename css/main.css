@@ -70,6 +70,9 @@ a.back-color-red:hover {
 .uppercase {
   text-transform: uppercase;
 }
+.opacity-0 {
+  opacity: 0;
+}
 @media (max-width: 991px) {
   .mt-6-under-991 {
     margin-top: 50px;
@@ -270,4 +273,8 @@ a.back-color-red:hover {
 
 ul.font-20 li {
   padding-bottom: 14px;
+}
+
+#loadingIcon {
+  display: none;
 }
