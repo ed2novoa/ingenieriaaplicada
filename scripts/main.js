@@ -24,7 +24,7 @@ function submitForm() {
   $("#loadingIcon").show();
   $.ajax({
     type: "POST",
-    url: "submitForm.php",
+    url: "http://novoaweb.com/ingenieriaaplicada/submitForm.php",
     data: $("#contactForm").serialize(),
     success: function(a) {
       var d = new TimelineLite();
@@ -37,11 +37,6 @@ function submitForm() {
       function c(e) {
         if (e == 1) {
           $("#resultDiv").html('<div class="alert alert-success" role="alert">¡Éxito! Muchas gracias.<br>Nos estaremos comunicando con usted dentro de poco.</div>');
-          ga("send", {
-            hitType: "event",
-            eventCategory: "Formulario",
-            eventAction: "Enviado"
-          })
         } else {
           $("#resultDiv").html('<div class="alert alert-danger" role="alert"><p><strong>Su mensaje no pudo ser enviado.<br>Por favor inténtelo de nuevo.</div>')
         }

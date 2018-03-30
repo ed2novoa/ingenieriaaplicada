@@ -3,13 +3,13 @@ error_reporting(0);
 $error="";
 $successMessage="";
 if($_POST){
-  $emailTo="eddnovoa@gmail.com";
+  $emailTo="info@ingenieriaaplicada.cr";
   $name=$_POST['name'];
   $email=$_POST['email'];
   $phone=$_POST['phone'];
   $subject=$_POST['subject'];
   $message=$_POST['content'];
-  $headers="From: ".$email."\r\n";
+  $headers="From: info@ingenieriaaplicada.cr\r\n";
   $headers.="MIME-Version: 1.0"."\r\n";
   $headers.="Content-type:text/html;
   charset=UTF-8";

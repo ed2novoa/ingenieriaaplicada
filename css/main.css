@@ -277,4 +277,11 @@ ul.font-20 li {
 
 #loadingIcon {
   display: none;
+  float: right;
+  margin-right: 15px;
+  margin-top: 9px;
+}
+
+#resultDiv {
+  width: 80%;
 }
