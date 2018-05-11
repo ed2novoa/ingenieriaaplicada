@@ -215,12 +215,22 @@ a.back-color-red:hover {
 
 /* ---------------------------------  ---------------------------- */
 
+.cence-01 {
+  background-image: url('../imgs/cence01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+}
 .cence-02 {
   background-image: url('../imgs/cence02.jpg');
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
   min-height: 600px;
+}
+.cence-02.mod {
+  min-height: 400px;
 }
 .cence-03 {
   background-image: url('../imgs/cence03.jpg');
@@ -268,6 +278,13 @@ a.back-color-red:hover {
   background-image: url('../imgs/hotel03.jpg');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.hero-back {
+  background-image: url('../imgs/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: left center;
   background-size: cover;
   min-height: 500px;
 }
