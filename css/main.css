@@ -13,6 +13,23 @@ body {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 117px 22px 19px;
 }
 
+h1.display-4, h2.display-4 {
+  font-size: 3.1rem !important;
+}
+
+h1.display-5 {
+  font-size: 2rem !important;
+}
+h2.sub {
+  font-size: 1.7rem !important;
+}
+h3.sub {
+  font-size: 1.5rem !important;
+}
+h4.sub {
+  font-size: 1.45rem !important;
+}
+
 /* --------------------------------- HELPERS ---------------------------------- */
 .section{
   padding-top: 90px;
@@ -260,7 +277,7 @@ a.back-color-red:hover {
 
 .contact-line {
   display: inline-block;
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 30px;
 }
 .contact-line:hover {
